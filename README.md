@@ -66,6 +66,20 @@ if __name__ == "__main__":
         print(e)
 
 
+RESULT
+
+
+Data Type Examples:
+Integer: 42
+Float: 3.14
+String: Hello, World!
+List: [1, 2, 3, 4, 5]
+Dictionary: {'name': 'Alice', 'age': 25}
+Boolean: True
+
+Factorial Example:
+Factorial of 5: 120
+
 
 
 
