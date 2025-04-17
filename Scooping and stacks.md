@@ -42,3 +42,11 @@ def outer_function():
 print(f"Global Scope: x = {x}")
 outer_function()
 print(f"Global Scope after function calls: x = {x}")
+
+
+OUTPUT
+
+Global Scope: x = 10
+Inner Function: x = 2
+Outer Function: x = 5
+Global Scope after function calls: x = 10
