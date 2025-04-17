@@ -19,3 +19,6 @@ When a function is called, a new stack frame is created. This frame contains:
 1) Local variables: Variables defined inside the function.
 2) Arguments passed to the function: Values passed when the function is called.
 3) A reference to the calling function's stack frame: This allows the function to access variables from the enclosing scope.
+
+
+Here's an example to demonstrate scoping and how the call stack works in Python
