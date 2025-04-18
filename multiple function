@@ -1,1 +1,38 @@
-g
+# Function to get user input
+def get_user_input():
+    try:
+        num = float(input("Enter a number: "))
+        return num
+    except ValueError:
+        print("Invalid input. Please enter a numeric value.")
+        return get_user_input()
+
+# Function to perform calculations
+def calculate_square_root(number):
+    if number < 0:
+        raise ValueError("Cannot calculate the square root of a negative number.")
+    return number ** 0.5
+
+# Function to display the result
+def display_result(number, result):
+    print(f"The square root of {number} is {result}")
+
+# Root function to organize the workflow
+def main():
+    print("Welcome to the Square Root Calculator!")
+    
+    # Step 1: Get user input
+    number = get_user_input()
+    
+    try:
+        # Step 2: Perform calculation
+        result = calculate_square_root(number)
+        
+        # Step 3: Display the result
+        display_result(number, result)
+    except ValueError as e:
+        print(f"Error: {e}")
+
+# Entry point of the program
+if __name__ == "__main__":
+    main()
