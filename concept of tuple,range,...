@@ -31,3 +31,28 @@ for num in range(5):
 # Use case: Generating a range of indices for iteration
 for i in range(len(days_of_week)):
     print(f"Day {i + 1}: {days_of_week[i]}")
+
+
+Example of lists
+
+# List creation
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+
+# Adding elements to a list
+fruits.append("orange")
+print("After append:", fruits)
+
+# Changing an element
+fruits[1] = "blueberry"
+print("After modification:", fruits)
+
+# Removing an element
+fruits.remove("apple")
+print("After removal:", fruits)
+
+# Use case: Dynamic collections like a shopping cart
+shopping_cart = []
+shopping_cart.append("milk")
+shopping_cart.append("bread")
+print("Shopping cart:", shopping_cart)
