@@ -56,3 +56,18 @@ shopping_cart = []
 shopping_cart.append("milk")
 shopping_cart.append("bread")
 print("Shopping cart:", shopping_cart)
+
+
+Example of mutability
+
+# List (mutable)
+mutable_list = [1, 2, 3]
+mutable_list[0] = 10  # Modifying the first element
+print("Mutable List:", mutable_list)
+
+# Tuple (immutable)
+immutable_tuple = (1, 2, 3)
+try:
+    immutable_tuple[0] = 10  # Attempting to modify the first element
+except TypeError as e:
+    print("Error:", e)
