@@ -1,4 +1,4 @@
-Example of tuple
+
 
 # Tuple creation
 coordinates = (10, 20, 30)
@@ -17,7 +17,7 @@ except TypeError as e:
 days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 print("Days of the week:", days_of_week)
 
-Example of ranges
+
 
 # Creating a range object
 numbers = range(1, 11)  # Generates numbers from 1 to 10
@@ -31,7 +31,7 @@ for num in range(5):
 for i in range(len(days_of_week)):
     print(f"Day {i + 1}: {days_of_week[i]}")
 
-Example of lists
+
 
 # List creation
 fruits = ["apple", "banana", "cherry"]
@@ -55,7 +55,7 @@ shopping_cart.append("milk")
 shopping_cart.append("bread")
 print("Shopping cart:", shopping_cart)
 
-Example of mutability
+
 
 # List (mutable)
 mutable_list = [1, 2, 3]
