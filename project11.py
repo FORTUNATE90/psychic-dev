@@ -1,1 +1,68 @@
-u
+# Tuple creation
+coordinates = (10, 20, 30)
+print("Tuple:", coordinates)
+
+# Accessing elements
+print("First element:", coordinates[0])
+
+# Tuples are immutable
+try:
+    coordinates[0] = 40  # This will raise an error
+except TypeError as e:
+    print("Error:", e)
+
+# Use case: Fixed data like days of the week
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+print("Days of the week:", days_of_week)
+
+
+
+# Creating a range object
+numbers = range(1, 11)  # Generates numbers from 1 to 10
+print("Range as a list:", list(numbers))  # Convert to list for visualization
+
+# Using range in a loop
+for num in range(5):
+    print(f"Number: {num}")
+
+# Use case: Generating a range of indices for iteration
+for i in range(len(days_of_week)):
+    print(f"Day {i + 1}: {days_of_week[i]}")
+
+
+
+# List creation
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+
+# Adding elements to a list
+fruits.append("orange")
+print("After append:", fruits)
+
+# Changing an element
+fruits[1] = "blueberry"
+print("After modification:", fruits)
+
+# Removing an element
+fruits.remove("apple")
+print("After removal:", fruits)
+
+# Use case: Dynamic collections like a shopping cart
+shopping_cart = []
+shopping_cart.append("milk")
+shopping_cart.append("bread")
+print("Shopping cart:", shopping_cart)
+
+
+
+# List (mutable)
+mutable_list = [1, 2, 3]
+mutable_list[0] = 10  # Modifying the first element
+print("Mutable List:", mutable_list)
+
+# Tuple (immutable)
+immutable_tuple = (1, 2, 3)
+try:
+    immutable_tuple[0] = 10  # Attempting to modify the first element
+except TypeError as e:
+    print("Error:", e)
