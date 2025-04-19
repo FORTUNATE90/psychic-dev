@@ -1,4 +1,4 @@
-Tuple
+Example of tuple
 
 # Tuple creation
 coordinates = (10, 20, 30)
