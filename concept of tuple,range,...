@@ -1,1 +1,18 @@
-Explain rhe concept of tuples, ranges, lists and mutability use some coding to show the different cases when to invoke their use
+Example of Tuple
+
+# Tuple creation
+coordinates = (10, 20, 30)
+print("Tuple:", coordinates)
+
+# Accessing elements
+print("First element:", coordinates[0])
+
+# Tuples are immutable
+try:
+    coordinates[0] = 40  # This will raise an error
+except TypeError as e:
+    print("Error:", e)
+
+# Use case: Fixed data like days of the week
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+print("Days of the week:", days_of_week)
