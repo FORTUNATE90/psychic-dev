@@ -29,3 +29,7 @@ plt.ylim(0, 10000)  # Set a reasonable range for y
 plt.legend()
 plt.grid()
 plt.show()
+
+
+def access_element(arr):
+    return arr[0]  # Accessing the first element is always constant time
