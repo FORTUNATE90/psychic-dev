@@ -45,3 +45,9 @@ def binary_search(arr, target):
         else:
             right = mid - 1
     return -1  # Not found
+
+def sum_array(arr):
+    total = 0
+    for num in arr:
+        total += num  # Iterating through the array once
+    return total
